@@ -12,6 +12,7 @@ Each dataset is expected to be self-contained in its own directory.
 There are three files in each dataset directory:
 * ```datasetName.csv```: a csv file contain the feature vectors extracted from a pre-trained Bert model (one sample per line). The last column provides the label corresponding to each sample.
 * ```datasetName_{split_ratio}_train_idx.csv```: a csv file where each line contains an index of a training example.
+* ```datasetName_{split_ratio}_valid_idx.csv```: a csv file where each line contains an index of a validation example.
 * ```datasetName_{split_ratio}_test_idx.csv```: a csv file where each line contains an index of a test example.
 
 An example of the ```Amazon Books``` dataset is:
@@ -19,8 +20,9 @@ An example of the ```Amazon Books``` dataset is:
 ```
 root/ 
     amz_review/
-        books.csv (https://utdallas.box.com/s/ciw8ruoa94k9avp9d6qojjjdv7zqshi4)
+        books.csv (Please download from https://utdallas.box.com/s/ciw8ruoa94k9avp9d6qojjjdv7zqshi4)
         books_0.6_train_idx.csv
+        books_0.6_valid_idx.csv
         books_0.6_test_idx.csv
 ```
 
