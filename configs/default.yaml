@@ -1,0 +1,15 @@
+DATASET:
+    TRAIN: 'Location'
+    TEST: 'Location'
+    RATIO: 0.6
+DATALOADER:
+    NUM_BATCH: 1000  # default 1000
+MODEL:
+    INPUT_DIM: 1024
+    DOWNSAMPLE_DIM: (512, )
+    SETCONV_DIM: 128
+    EMBEDDING_DIM: 128
+    MINORITY_CLASSES: (1.0, 2.0, )
+    K: 1
+OPTIMIZER:
+    MAX_EPOCH: 10  # default 10

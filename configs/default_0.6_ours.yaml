@@ -1,0 +1,18 @@
+DEVICE: 'cuda:1'
+DATASET:
+    TRAIN: 'AmzBooks'
+    VALID: 'AmzBooks'
+    TEST: 'AmzBooks'
+    RATIO: 0.6
+DATALOADER:
+    NUM_BATCH: 1000  # default 1000
+MODEL:
+    INPUT_DIM: 1024
+    DOWNSAMPLE_DIM: (512,)  # default (512,)
+    SETCONV_DIM: 256 # 256
+    EMBEDDING_DIM: 128  # 128
+    MINORITY_CLASS: 1.0
+OPTIMIZER:
+    MAX_EPOCH: 20  # default 10, 30
+TEST:
+    TRAIN_SAMPLE_SIZE: 1000
