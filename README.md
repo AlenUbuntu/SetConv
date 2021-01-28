@@ -60,7 +60,7 @@ The model performance on the test set is:
 |3|0.81353|0.89548|0.96117|0.92685|0.86517|
 |Avg|0.79787|0.88688|0.95257|0.91506|0.85957|
 
-This dummy dataset is stored in the ```SetConv/AmzBooks/``` folder.
+This dummy dataset is stored in ```https://utdallas.box.com/s/ciw8ruoa94k9avp9d6qojjjdv7zqshi4```.
 
 ## Citation
 If you find this code helpful, please consider to cite:
