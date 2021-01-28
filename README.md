@@ -19,7 +19,7 @@ An example of the ```Amazon Books``` dataset is:
 ```
 root/ 
     amz_review/
-        books.csv
+        books.csv (https://utdallas.box.com/s/ciw8ruoa94k9avp9d6qojjjdv7zqshi4)
         books_0.6_train_idx.csv
         books_0.6_test_idx.csv
 ```
