@@ -20,7 +20,7 @@ An example of the ```Amazon Books``` dataset is:
 ```
 root/ 
     amz_review/
-        books.csv (Please download from https://utdallas.box.com/s/ciw8ruoa94k9avp9d6qojjjdv7zqshi4)
+        books.csv (Please download from https://drive.google.com/file/d/1HMVN0X-94v5_io7Cz0qR7nbq_Ljfe8yU/view?usp=sharing)
         books_0.6_train_idx.csv
         books_0.6_valid_idx.csv
         books_0.6_test_idx.csv
@@ -60,7 +60,7 @@ The model performance on the test set is:
 |3|0.81353|0.89548|0.96117|0.92685|0.86517|
 |Avg|0.79787|0.88688|0.95257|0.91506|0.85957|
 
-This dummy dataset is stored in ```https://utdallas.box.com/s/ciw8ruoa94k9avp9d6qojjjdv7zqshi4```.
+This dummy dataset is stored in ```https://drive.google.com/file/d/1HMVN0X-94v5_io7Cz0qR7nbq_Ljfe8yU/view?usp=sharing```.
 
 ## Citation
 If you find this code helpful, please consider to cite:
